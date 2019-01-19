@@ -43,4 +43,39 @@ date_format = "January 2006"
   Developed a Self-service portal for mobile application development.
   """
 
+[[experience]]
+  title = "Intern"
+  company = "Dell"
+  company_url = ""
+  location = "Banglore, India"
+  date_start = "2017-05-01"
+  date_end = "2017-07-31"
+  description = """
+  Worked as an automation and virtualization engineer.
+  """
+
+[[experience]]
+  title = "Research Assistant"
+  company = "Shiv Nadar University"
+  company_url = ""
+  location = "NCR, India"
+  date_start = "2016-05-01"
+  date_end = "2016-12-31"
+  description = """
+  Research assistant under RN Biswas. 
+  Task: Designing and Implementing a Pipelined Processor 
+  Technology used: Verilog
+  """
+[[experience]]
+  title = "Research Assistant"
+  company = "Shiv Nadar University"
+  company_url = ""
+  location = "NCR, India"
+  date_start = "2016-10-01"
+  date_end = "2018-05-05"
+  description = """
+  Research Assistant under Girish Agarwal. 
+  Task: Developing An Earthquake Early Warning System (SNU EEWS) and Designing classification models for the same. 
+  """
+
 +++

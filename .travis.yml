@@ -10,8 +10,8 @@ python:
 # before_install
 # install - install any dependencies required
 install:
-    - go get github.com/PrasannaNatarajan/academic-profile
-
+    - wget --no-check-certificate --content-disposition https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.deb
+    - sudo apt install ./hugo_0.53_Linux-64bit.deb
 before_script:
     - rm -rf public 2> /dev/null
 

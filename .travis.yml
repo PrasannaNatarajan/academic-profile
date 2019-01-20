@@ -28,7 +28,9 @@ deploy:
   verbose: true
   keep-history: true
   local-dir: public
-  repo: https://github.com/PrasannaNatarajan/PrasannaNatarajan.github.io
-  target_branch: master  # branch contains blog content
   on:
-    branch: code  # branch contains Hugo generator code
+    repo: https://github.com/PrasannaNatarajan/PrasannaNatarajan.github.io
+
+    branches:
+      only:
+        - master   # branch contains Hugo generator code

@@ -28,7 +28,7 @@ after_success:
   - rev=$(git rev-parse --short HEAD)
   - git add .
   - git commit -m "deployed with latest ${rev}"
-  - git push origin HEAD:master
+  - git push origin-pages HEAD:master
 
 # deploy:
 #   provider: pages

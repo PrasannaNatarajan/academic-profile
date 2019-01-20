@@ -10,7 +10,7 @@ python:
 # before_install
 # install - install any dependencies required
 install:
-    - go get https://github.com/PrasannaNatarajan/academic-profile
+    - go get github.com/PrasannaNatarajan/academic-profile
 
 before_script:
     - rm -rf public 2> /dev/null

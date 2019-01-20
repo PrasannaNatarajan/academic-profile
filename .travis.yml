@@ -24,7 +24,7 @@ after_success:
   - cd ./public
   - git config user.email ${GITHUB_EMAIL}
   - git config user.name ${GITHUB_USERNAME}
-  - git remote -v
+  - git remote add origin-pages https://$GITHUB_TOKEN@github.com/PrasannaNatarajan/PrasannaNatarajan.github.io.git
   - rev=$(git rev-parse --short HEAD)
   - git add .
   - git commit -m "deployed with latest ${rev}"

@@ -29,7 +29,7 @@ weight = 3
   canvas{ display: block; vertical-align: bottom; position:absolute; top:-2%; right:0%; }
   #test{background:rgba(0,0,0,0.5);} 
    </style>
-The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
+Still Under Development... 
 <!-- <div id="test">
   <a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">
   Latest release

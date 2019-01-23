@@ -17,7 +17,7 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "MS CS in Datascience"
+  course = "MS CS (Specialization - Data science)"
   institution = "University of Southern California"
   year = 2020
 
@@ -30,4 +30,4 @@ weight = 5
 
 # Biography
 
-I am a Graduate Student (MS CS) at University of Southern Califronia specialising in Datascience. In my previous internships, I have worked on things ranging from designing a cpu to designing machine learning models.
+I am a Graduate Student (MS CS) at University of Southern California specializing in Data science. In my previous internships, I have worked on things ranging from designing a CPU to designing machine learning models.

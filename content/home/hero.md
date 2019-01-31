@@ -26,7 +26,7 @@ weight = 3
 
 
   <style>
-  canvas{ display: block; vertical-align: bottom; position:absolute; top:-2%; right:0%; }
+  canvas{ display: block; vertical-align: bottom; position:absolute; top:-2%; right:0%; z-index:-1; }
   #test{background:rgba(0,0,0,0.5);} 
   section#hero{
     height:75vh !important;
@@ -54,7 +54,7 @@ html, body {
   transition: opacity .3s;
 }
 .demo a:hover {
-  opacity: .5;
+  text-decoration: none;
 }
 
 #section06 a {
@@ -67,8 +67,9 @@ html, body {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-color:inherit;
   -webkit-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
   -webkit-animation: sdb06 1.5s infinite;
@@ -102,16 +103,76 @@ html, body {
   }
 }
 
+#section07 a {
+  padding-top: 80px;
+}
+#section07 a span {
+  position: absolute;
+  top: 74vh;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-color:inherit;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb07 2s infinite;
+  animation: sdb07 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+#section07 a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+#section07 a span:nth-of-type(2) {
+  top: 76vh;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+#section07 a span:nth-of-type(3) {
+  top: 78vh;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+@-webkit-keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb07 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 </style>
-<div id="dev" style="white-space: nowrap; display:inline;"></div>
-<br>
+<!-- <div id="dev" style="white-space: nowrap; display:inline;"></div>
+<br> -->
+
 <div id="name" style="white-space: nowrap; display:inline;"></div>
 <br>
 <div id="app" style="white-space: nowrap; display:inline;"></div>
 <br>
-
-<section id="section06" class="demo" style="margin-top:20vh;">
-  <a href="#about"><span></span>Know More</a>
+<!-- <section id="section06" class="demo" style="margin-top:20vh;">
+  <a href="#about" style="color:inherit"><span></span>About Me</a>
+</section> -->
+<section id="section07" class="demo" style="margin-top:20vh;">
+  <a href="#about" style="color:inherit"><span></span><span></span><span></span>About Me</a>
 </section>
 
 <!-- <div id="test">
@@ -127,7 +188,7 @@ html, body {
 <script async defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"> </script> 
 
 <script>
-particlesJS("hero", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"grab"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+particlesJS("hero", {"particles":{"number":{"value":50,"density":{"enable":true,"value_area":1000}},"color":{"value":"#ffffff"},"shape":{"type":"polygon","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":6},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":true,"anim":{"enable":false,"speed":0.5,"opacity_min":0.1,"sync":true}},"size":{"value":4,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":2,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":true,"attract":{"enable":true,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"grab"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
 // particlesJS("hero", {
 //   particles: {
 //     number: {
@@ -285,14 +346,14 @@ $(function() {
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
 });
-var typed1 = new Typed('#dev', {
-    strings: ['The page is still under development...'],
-    typeSpeed: 0,
-    backSpeed: 0,
-    fadeOut: false,
-    loop: false,
-    showCursor:false
-  });
+// var typed1 = new Typed('#dev', {
+//     strings: ['The page is still under development...'],
+//     typeSpeed: 0,
+//     backSpeed: 0,
+//     fadeOut: false,
+//     loop: false,
+//     showCursor:false
+//   });
 
   var typedname = new Typed('#name', {
     strings: ['Hi, I am Prasanna...'],

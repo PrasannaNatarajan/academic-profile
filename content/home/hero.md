@@ -28,11 +28,91 @@ weight = 3
   <style>
   canvas{ display: block; vertical-align: bottom; position:absolute; top:-2%; right:0%; }
   #test{background:rgba(0,0,0,0.5);} 
-   </style>
-Still Under Development...
-<div id="app">hi</div>
+  section#hero{
+    height:75vh !important;
+    text-align:center;
+    padding-top:30vh;
+  }
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+
+html, body {
+  height: 100%;
+}
 
 
+.demo a {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  z-index: 100;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+ 
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+#section06 a {
+  padding-top: 70px;
+}
+#section06 a span {
+  position: absolute;
+  top: 50;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  -webkit-animation: sdb06 1.5s infinite;
+  animation: sdb06 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb06 {
+  0% {
+    -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+@keyframes sdb06 {
+  0% {
+    transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+}
+
+</style>
+<div id="dev" style="white-space: nowrap; display:inline;"></div>
+<br>
+<div id="name" style="white-space: nowrap; display:inline;"></div>
+<br>
+<div id="app" style="white-space: nowrap; display:inline;"></div>
+<br>
+
+<section id="section06" class="demo" style="margin-top:20vh;">
+  <a href="#about"><span></span>Know More</a>
+</section>
 
 <!-- <div id="test">
   <a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">
@@ -46,24 +126,191 @@ Still Under Development...
 <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
 <script async defer src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"> </script> 
 
-<script>  particlesJS("hero", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+<script>
+particlesJS("hero", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"grab"},"onclick":{"enable":true,"mode":"repulse"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+// particlesJS("hero", {
+//   particles: {
+//     number: {
+//       value: 52,
+//       density: {
+//         enable: true,
+//         value_area: 631.3280775270874
+//       }
+//     },
+//     color: {
+//       value: "#fff"
+//     },
+//     shape: {
+//       type: "circle",
+//       stroke: {
+//         width: 0,
+//         color: "#000000"
+//       },
+//       polygon: {
+//         nb_sides: 5
+//       },
+//       image: {
+//         src: "img/github.svg",
+//         width: 100,
+//         height: 100
+//       }
+//     },
+//     opacity: {
+//       value: 0.5,
+//       random: true,
+//       anim: {
+//         enable: false,
+//         speed: 1,
+//         opacity_min: 0.1,
+//         sync: false
+//       }
+//     },
+//     size: {
+//       value: 5,
+//       random: true,
+//       anim: {
+//         enable: false,
+//         speed: 40,
+//         size_min: 0.1,
+//         sync: false
+//       }
+//     },
+//     line_linked: {
+//       enable: false,
+//       distance: 500,
+//       color: "#ffffff",
+//       opacity: 0.4,
+//       width: 2
+//     },
+//     move: {
+//       enable: true,
+//       speed: 1.5,
+//       direction: "bottom",
+//       random: false,
+//       straight: false,
+//       out_mode: "out",
+//       bounce: false,
+//       attract: {
+//         enable: false,
+//         rotateX: 600,
+//         rotateY: 1200
+//       }
+//     }
+//   },
+//   interactivity: {
+//     detect_on: "canvas",
+//     events: {
+//       onhover: {
+//         enable: false,
+//         mode: "bubble"
+//       },
+//       onclick: {
+//         enable: true,
+//         mode: "repulse"
+//       },
+//       resize: true
+//     },
+//     modes: {
+//       grab: {
+//         distance: 400,
+//         line_linked: {
+//           opacity: 0.5
+//         }
+//       },
+//       bubble: {
+//         distance: 400,
+//         size: 4,
+//         duration: 0.3,
+//         opacity: 1,
+//         speed: 3
+//       },
+//       repulse: {
+//         distance: 200,
+//         duration: 0.4
+//       },
+//       push: {
+//         particles_nb: 4
+//       },
+//       remove: {
+//         particles_nb: 2
+//       }
+//     }
+//   },
+//   retina_detect: true
+// });
+// var count_particles, stats, update;
+// stats = new Stats();
+// stats.setMode(0);
+// stats.domElement.style.position = "absolute";
+// stats.domElement.style.left = "0px";
+// stats.domElement.style.top = "0px";
+// document.body.appendChild(stats.domElement);
+// count_particles = document.querySelector(".js-count-particles");
+// update = function() {
+//   stats.begin();
+//   stats.end();
+//   if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+//     count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+//   }
+//   requestAnimationFrame(update);
+// };
+// requestAnimationFrame(update);
+
   </script>
 
-<script  src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+<!-- <script  src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
+></script>
 <script> 
-var app = document.getElementById('app');
-console.log(app)
-var typewriter = new Typewriter(app, {
-    loop: true
-});
+// var app = document.getElementById('app');
+// console.log(app)
+// var typewriter = new Typewriter(app, {
+//     loop: true
+// });
 
-typewriter.typeString('Hello World!')
-    .pauseFor(2)
-    .deleteAll()
-    .typeString('Strings can be removed')
-    .pauseFor(2)
-    .deleteChars(7)
-    .typeString('<strong>altered!</strong>')
-    .pauseFor(2)
-    .start();
+// typewriter.typeString('Hello World!')
+//     .pauseFor(2)
+//     .deleteAll()
+//     .typeString('Strings can be removed')
+//     .pauseFor(2)
+//     .deleteChars(7)
+//     .typeString('<strong>altered!</strong>')
+//     .pauseFor(2)
+//     .start();
+$(function() {
+  $('a[href*=\\#about]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+var typed1 = new Typed('#dev', {
+    strings: ['The page is still under development...'],
+    typeSpeed: 0,
+    backSpeed: 0,
+    fadeOut: false,
+    loop: false,
+    showCursor:false
+  });
+
+  var typedname = new Typed('#name', {
+    strings: ['Hi, I am Prasanna...'],
+    typeSpeed: 0,
+    backSpeed: 0,
+    fadeOut: false,
+    loop: false,
+    showCursor:false,
+    startDelay: 2000
+  });
+ var typed2 = new Typed('#app', {
+    strings: ['I am a <strong>Grad Student</strong>...', 'I am a <strong>Machine Learning Enthusiast</strong>...', 'I am a <strong>Software Developer</strong>...'],
+    typeSpeed: 40,
+    backSpeed: 20,
+    fadeOut: false,
+    loop: true,
+    showCursor:true,
+    startDelay:3000
+  });
+    
 </script> 

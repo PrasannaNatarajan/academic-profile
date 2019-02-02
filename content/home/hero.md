@@ -364,7 +364,7 @@ $(function() {
     fadeOut: false,
     loop: false,
     showCursor:false,
-    startDelay: 2000
+    startDelay: 100
   });
  var typed2 = new Typed('#app', {
     strings: ['I am a <strong>Grad Student</strong>...', 'I am a <strong>Machine Learning Enthusiast</strong>...', 'I am a <strong>Software Developer</strong>...'],
@@ -373,7 +373,7 @@ $(function() {
     fadeOut: false,
     loop: true,
     showCursor:true,
-    startDelay:3000
+    startDelay:2000
   });
     
 </script> 

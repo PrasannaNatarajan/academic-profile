@@ -6,11 +6,11 @@ date = 2017-09-20T00:00:00
 # Activate this widget? true/false
 active = false
 
-title = "Frameworks"
+title = "Programming Languages"
 subtitle = ""
 
 # Order that this section will appear in.
-weight = 7
+weight = 6
 
 # Showcase personal skills or business features.
 # 
@@ -19,51 +19,53 @@ weight = 7
 # Available icon packs and icons:
 # * fas - Font Awesome standard icons (see https://fontawesome.com/icons)
 # * fab - Font Awesome brand icons (see https://fontawesome.com/icons)
-# * ai - academic icons (see https://jpswalsh.github.io/academicons/)
- 
+# * ai - academic icons (see https://jpswalsh.github.io/academicons/)  
   
 [[feature]]
-  icon = "android"
+  icon = "python"
   icon_pack = "fab"
-  name = "Android"
+  name = "Python"
   description = "  "
 
+[[feature]]
+  icon = "r-project"
+  icon_pack = "fab"
+  name = "R"
+  description = "  "
 
 [[feature]]
-  icon = "desktop"
+  icon = "java"
+  icon_pack = "fab"
+  name = "Java"
+  description = '  '
+
+[[feature]]
+  icon = "html5"
+  icon_pack = "fab"
+  name = "HTML"
+  description = "  "
+
+[[feature]]
+  icon = "css3-alt"
+  icon_pack = "fab"
+  name = "CSS"
+  description = "  "
+
+[[feature]]
+  icon = "database"
   icon_pack = "fas"
-  name = "Ionic"
+  name = "MySQL"
   description = "  "
 
-
 [[feature]]
-  icon = "node-js"
+  icon = "js"
   icon_pack = "fab"
-  name = "Node.js"
+  name = "JavaScript"
   description = "  "
 
 [[feature]]
-  icon = "flask"
+  icon = "file"
   icon_pack = "fas"
-  name = "Flask"
-  description = "  "
-
-[[feature]]
-  icon = "node-js"
-  icon_pack = "fab"
-  name = "Django"
-  description = "  "
-
-
-[[feature]]
-  icon = "vuejs"
-  icon_pack = "fab"
-  name = "vuejs"
-  description = "  "
-  
-[[feature]]
-  icon = "angular"
-  icon_pack = "fab"
-  name = "AngularJS"
+  name = "MongoDB"
   description = "  "
 +++

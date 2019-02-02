@@ -66,9 +66,9 @@ enableGitInfo = false
   email = "pn53690@usc.edu"
   # address = "Building 1 Room 1, Stanford University, California, 90210, USA"  
   # office_hours = """    """
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
+  phone = "+1(213)-234-8306"
+  skype = ""
+  telegram = "PrasannaNatarajan"
   keybase = ""  # Your keybase.io username.
 
   # Enter an optional link for booking appointments (e.g. calendly.com).
@@ -281,7 +281,7 @@ enableGitInfo = false
   [[params.social]]
     icon = "cv"
     icon_pack = "ai"
-    link = "files/cv.pdf"
+    link = "files/PrasannaNatarajan.pdf"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -295,7 +295,20 @@ enableGitInfo = false
   name = "Home"
   url = "#about"
   weight = 1
+# [[menu.main]]
+#   name = "Skills"
+#   url = "#skills"
+#   weight = 2
 
+[[menu.main]]
+  name = "Experience"
+  url = "#experience"
+  weight = 3
+
+[[menu.main]]
+  name = "Online Courses"
+  url = "#accomplishments"
+  weight = 5
 # [[menu.main]]
 #   name = "Publications"
 #   url = "#publications_selected"

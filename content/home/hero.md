@@ -13,7 +13,7 @@ weight = 3
 #   Deactivate an option by commenting out the line, prefixing it with `#`.
 [header]
   overlay_color = "#2962fea1"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/img/` folder.
+  overlay_img = "back.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.5  # Darken the image. Value in range 0-1.
 
 # Call to action button (optional).
@@ -29,7 +29,7 @@ weight = 3
   canvas{ display: block; vertical-align: bottom; position:absolute; top:-2%; right:0%; z-index:-1; }
   #test{background:rgba(0,0,0,0.5);} 
   section#hero{
-    height:75vh !important;
+    height:100vh !important;
     text-align:center;
     padding-top:30vh;
   }
@@ -39,7 +39,9 @@ weight = 3
 html, body {
   height: 100%;
 }
-
+.typed-cursor{
+  color:white;
+}
 
 .demo a {
   position: absolute;
@@ -69,7 +71,7 @@ html, body {
   margin-left: -12px;
   border-left: 1px solid;
   border-bottom: 1px solid;
-  border-color:inherit;
+  border-color:#fff;
   -webkit-transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
   -webkit-animation: sdb06 1.5s infinite;
@@ -164,15 +166,15 @@ html, body {
 <!-- <div id="dev" style="white-space: nowrap; display:inline;"></div>
 <br> -->
 
-<div id="name" style="white-space: nowrap; display:inline;"></div>
+<div id="name" style="white-space: nowrap; display:inline; color:#fff;"></div>
 <br>
-<div id="app" style="white-space: nowrap; display:inline;"></div>
+<div id="app" style="white-space: nowrap; display:inline; color:#fff;"></div>
 <br>
 <!-- <section id="section06" class="demo" style="margin-top:20vh;">
   <a href="#about" style="color:inherit"><span></span>About Me</a>
 </section> -->
 <section id="section07" class="demo" style="margin-top:20vh;">
-  <a href="#about" style="color:inherit"><span></span><span></span><span></span>About Me</a>
+  <a href="#about" style="color:#fff"><span></span><span></span><span></span>About Me</a>
 </section>
 
 <!-- <div id="test">

@@ -45,10 +45,19 @@ tag = "*"
 #   tag = "Deep Learning"
 #
 [[filter]]
-name = "Other"
-tag = "Demo"
+name = "Android"
+tag = "android"
+
+[[filter]]
+name = "Web"
+tag = "web"
+
+[[filter]]
+name = "Research"
+tag = "research"
+
 [[filter]]
 name = "Academic"
-tag = "Academic"
+tag = "academic"
 +++
 

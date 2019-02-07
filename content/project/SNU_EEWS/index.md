@@ -10,7 +10,7 @@ summary = "Crowdsourcing an Earthquake Early Warning System for the Indian Subco
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["machine-learning","Android","Web"]
+tags = ["machine-learning","android","web","research"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

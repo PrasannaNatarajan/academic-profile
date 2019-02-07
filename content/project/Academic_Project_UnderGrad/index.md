@@ -10,7 +10,7 @@ summary = "All the major computer science projects done for my undergraduate (B.
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["Undergraduate","Web","Android","Arduino" ,"Networks","Data-Viz", "Academic"]
+tags = ["undergraduate","web","android","arduino" ,"networks","data-viz", "academic"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -75,7 +75,7 @@ url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://
 
 **Repo**: [IOYou](https://github.com/PrasannaNatarajan/IOU_dbms-)
 
-**Team Members**: [Vedant Chakravarthy](//github.com/vedantcj)
+**Team Members**: [Vedant Chakravarthy](https://www.linkedin.com/in/vedant-chakravarthy/)
 
 **My Contribution**: Built and hosted the backend system. Made the SQLite connection in android. Also wrote the sync functionality.
 
@@ -91,7 +91,7 @@ url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://
 
 **Repo**: [Symphonia](https://github.com/PrasannaNatarajan/Symphonia) 
 
-**Team Members**: [Anirudh Badri](//github.com/AnirudhBadri), [Hari Prasath](//github.com/hariiprasath), [Vedant Chakravarthy](//github.com/vedantcj)
+**Team Members**: [Anirudh Badri](https://www.linkedin.com/in/anirudh-badri-419390a7/), [Hari Prasath](be.net/hariiprasath), [Vedant Chakravarthy](https://www.linkedin.com/in/vedant-chakravarthy/)
 
 **My Contribution**: Made the basic music player in android. Worked on formulating a custom protocol for synchronized playing and implemented parts of it.
 
@@ -107,7 +107,7 @@ url_custom = [{icon_pack = "fab", icon="twitter", name="Follow", url = "https://
 
 **Repo**: [InternetRadio/TV](https://github.com/PrasannaNatarajan/NetworksAssignment) 
 
-**Team Members**: [Siddhart Mitra](//github.com/sm515), [Sridhar R Ramanujam](//github.com/sridhar1896), [Vedant Chakravarthy](//github.com/vedantcj)
+**Team Members**: [Siddhart Mitra](//github.com/sm515), [Sridhar R Ramanujam](//github.com/sridhar1896), [Vedant Chakravarthy](https://www.linkedin.com/in/vedant-chakravarthy/)
 
 **My Contribution**: Worked on serializing and sending a multimedia stream.
 
@@ -144,7 +144,7 @@ while one is sleeping and provides relevant information. When sound increases, t
 
 **Repo**: [CatNap](https://github.com/PrasannaNatarajan/CSD_337_WSN/tree/master/Catnap%20-%20Project) 
 
-**Team Members**: [Atish Majumdar](//github.com/atish-maj), [Vedant Chakravarthy](//github.com/vedantcj)
+**Team Members**: [Atish Majumdar](//github.com/atish-maj), [Vedant Chakravarthy](https://www.linkedin.com/in/vedant-chakravarthy/)
 
 **My Contribution**: Wrote arduino code for reading the sensor values (LDR and Sound Sensor). Wrote a python script for plotting the received data from sensors.
 
@@ -158,7 +158,7 @@ while one is sleeping and provides relevant information. When sound increases, t
 
 **Demo**: [link](https://snu-dashboardd.herokuapp.com/)
 
-**Team Members**: [Hari Prasath](//github.com/hariiprasath), [Vedant Chakravarthy](//github.com/vedantcj), [Vishal Gauba](//github.com/FlameFractal) 
+**Team Members**: [Hari Prasath](be.net/hariiprasath), [Vedant Chakravarthy](https://www.linkedin.com/in/vedant-chakravarthy/), [Vishal Gauba](//github.com/FlameFractal) 
 
 **My Contribution**: Set up and hosted Mongo DB database instance for the forums. Customized nodebb forum to suite our theme.
 

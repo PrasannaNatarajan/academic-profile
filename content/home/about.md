@@ -11,8 +11,8 @@ weight = 5
 [interests]
   interests = [
     "Machine Learning",
-    "Full Stack Developer",
-    "Android Developer"
+    "Full Stack Development",
+    "Android Development"
   ]
 
 # List your qualifications (such as academic degrees).

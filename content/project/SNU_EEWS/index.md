@@ -6,7 +6,7 @@ title = "SNU Earthquake Early Warning System"
 date = 2016-04-27T00:00:00
 
 # Project summary to display on homepage.
-summary = "Crowdsourcing an Earthquake Early Warning System for the Indian Subcontinent (SNU-EEWS)."
+summary = "Crowdsourcing an Earthquake Early Warning System for the Indian Subcontinent (SNU-EEWS). <br>"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

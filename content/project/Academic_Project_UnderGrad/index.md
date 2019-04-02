@@ -152,7 +152,7 @@ while one is sleeping and provides relevant information. When sound increases, t
 
 **Description**: An online portal where users can know all the happenings around Shiv Nadar University. Club activities to cab pool and lost and found all at this one place.
 
-**Technology Stack**: HTML, CSS, jquery for front end. MongoDB as our database. Node.js for backend server.
+**Technology Stack**: HTML, CSS, AngularJS for front end. MongoDB as our database. Node.js for backend server.
 
 **Repo**:[snudashboard](https://github.com/FlameFractal/SNU-Dashboard)
 
@@ -166,7 +166,7 @@ while one is sleeping and provides relevant information. When sound increases, t
 
 **Description**: An e-commerce website for selling and buying books.
 
-**Technology Stack**: HTML, CSS, jquery for front end. MySQL as our database. PHP for backend server.
+**Technology Stack**: HTML, CSS, AngularJS for front end. MySQL as our database. PHP for backend server.
 
 **Demo**: [link](https://bookbuy.hol.es/)
 

@@ -160,7 +160,7 @@ while one is sleeping and provides relevant information. When sound increases, t
 
 **Team Members**: [Hari Prasath](be.net/hariiprasath), [Vedant Chakravarthy](https://www.linkedin.com/in/vedant-chakravarthy/), [Vishal Gauba](//github.com/FlameFractal) 
 
-**My Contribution**: Set up and hosted Mongo DB database instance for the forums. Customized nodebb forum to suite our theme.
+**My Contribution**: Worked on part of the frontend application. Set up and hosted Mongo DB database instance for the forums (backend application). Customized nodebb forum to suite our theme.
 
 ## 8. Bookbuy Website
 
@@ -172,4 +172,4 @@ while one is sleeping and provides relevant information. When sound increases, t
 
 **Team Members**: Pranjal Mathur, Prerna, Pulkit Gupta.
 
-**My Contribution**: Wrote frontend (HTML, CSS, AngularJS) for the application. 
+**My Contribution**: Worked on the frontend (HTML, CSS, AngularJS) for the application. 

@@ -172,4 +172,4 @@ while one is sleeping and provides relevant information. When sound increases, t
 
 **Team Members**: Pranjal Mathur, Prerna, Pulkit Gupta.
 
-**My Contribution**: Wrote backend PHP, especially connected it to MySQL database. 
+**My Contribution**: Wrote frontend (HTML, CSS, AngularJS) for the application. 

@@ -19,6 +19,17 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Intern"
+  company = "Amazon.com"
+  company_url = "amazon.com"
+  location = "Bellevue, Washington, US"
+  date_start = "2020-06-01"
+  date_end = "2020-08-21"
+  description = """
+  Developed a test bench framework for custom load to benchmark Elastic Search.
+  """
+  
+[[experience]]
   title = "Software Engineer 1"
   company = "Dell"
   company_url = "www.dell.com"
@@ -30,17 +41,6 @@ date_format = "January 2006"
   
   * Moving web services to Pivotal Cloud Foundary
   * Improving page performance
-  """
-
-[[experience]]
-  title = "Intern"
-  company = "Amazon.com"
-  company_url = "amazon.com"
-  location = "Bellevue, Washington, US"
-  date_start = "2020-06-01"
-  date_end = "2020-08-21"
-  description = """
-  Developed a test bench framework for custom load to benchmark Elastic Search.
   """
 
 [[experience]]

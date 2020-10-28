@@ -34,6 +34,17 @@ date_format = "January 2006"
 
 [[experience]]
   title = "Intern"
+  company = "Amazon.com"
+  company_url = "amazon.com"
+  location = "Bellevue, Washington, US"
+  date_start = "2020-06-01"
+  date_end = "2020-08-21"
+  description = """
+  Developed a test bench framework for custom load to benchmark Elastic Search.
+  """
+
+[[experience]]
+  title = "Intern"
   company = "Dell EMC"
   company_url = ""
   location = "Banglore, India"

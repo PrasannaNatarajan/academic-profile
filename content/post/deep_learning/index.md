@@ -35,7 +35,9 @@ categories = []
 
 ### Table of Contents
 
-1. 
+1. Basics - Some math before getting started
+2. Supervised learning
+3. Unsupervised learning
 
 ### Pre-Deep Learning (Basics)
 

@@ -367,7 +367,7 @@ $(function() {
     startDelay: 100
   });
  var typed2 = new Typed('#app', {
-    strings: ['I am a <strong>Grad Student</strong>...', 'I am a <strong>Machine Learning Enthusiast</strong>...', 'I am a <strong>Software Developer</strong>...'],
+    strings: ['I am a <strong>Grad Student</strong>...', 'I am a <strong>Machine Learning Enthusiast</strong>...', 'I am a <strong>Software Developer</strong>...', 'I am an <strong>anime fan</strong>...'],
     typeSpeed: 40,
     backSpeed: 20,
     fadeOut: false,

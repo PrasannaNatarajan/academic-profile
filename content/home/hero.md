@@ -327,35 +327,13 @@ particlesJS("hero", {"particles":{"number":{"value":50,"density":{"enable":true,
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"
 ></script>
 <script> 
-// var app = document.getElementById('app');
-// console.log(app)
-// var typewriter = new Typewriter(app, {
-//     loop: true
-// });
-
-// typewriter.typeString('Hello World!')
-//     .pauseFor(2)
-//     .deleteAll()
-//     .typeString('Strings can be removed')
-//     .pauseFor(2)
-//     .deleteChars(7)
-//     .typeString('<strong>altered!</strong>')
-//     .pauseFor(2)
-//     .start();
 $(function() {
   $('a[href*=\\#about]').on('click', function(e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
   });
 });
-// var typed1 = new Typed('#dev', {
-//     strings: ['The page is still under development...'],
-//     typeSpeed: 0,
-//     backSpeed: 0,
-//     fadeOut: false,
-//     loop: false,
-//     showCursor:false
-//   });
+
 
   var typedname = new Typed('#name', {
     strings: ['Hi, I am Prasanna...'],
@@ -367,7 +345,7 @@ $(function() {
     startDelay: 100
   });
  var typed2 = new Typed('#app', {
-    strings: ['I am a <strong>Grad Student</strong>...', 'I am a <strong>Machine Learning Enthusiast</strong>...', 'I am a <strong>Software Developer</strong>...', 'I am an <strong>anime fan</strong>...'],
+    strings: ['I am a <strong>Grad Student</strong>...', 'I am a <strong>Machine Learning Enthusiast</strong>...', 'I am a <strong>Software Developer</strong>...', 'I am a <strong>anime fan</strong>...'],
     typeSpeed: 40,
     backSpeed: 20,
     fadeOut: false,
